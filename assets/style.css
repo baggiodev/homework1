@@ -1,0 +1,157 @@
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+li{
+	display:inline;
+}
+a {
+	text-decoration: none;
+}
+footer {
+	text-align:center;
+	background-color: #666666;
+	width:100%;
+	border-top:5px solid #4aaaa5;
+	height:100px;
+}
+#copyright {
+	padding:30px;
+	color:white;
+}
+h1 {
+	background-color: #4aaaa5;
+	color: white;
+	width:21%;
+	padding:25px;
+	margin-left: 100px;
+	margin-bottom:0px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+hr {
+	border-top:1px solid #eee;
+	border-bottom:2px solid #eee;
+}
+h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:#4aaaa5;
+}
+header {
+	border-bottom: 2px solid #ccc;
+	text-align:center;
+}
+#background {
+	background-image: url("images/background.png");
+	margin:0px 0px;
+	padding:50px 0px 100px 100px;
+	min-height: 100%;
+}
+#main {
+	width:650px;
+	background-color: white;
+	padding:20px;
+	overflow:auto;
+}
+h2 {
+	margin:0px auto;
+	padding:10px;
+}
+h3 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	margin:20px 30px;
+}
+hr {
+
+}
+p {
+
+}
+#aboutPicture {
+	float:left;
+	margin:10px 20px 20px 0px;
+}
+#contactInfo{
+	position:absolute;
+	top:159px;
+	right:110px;
+	text-align:center;
+	background-color: white;
+	width: 270px;
+	height:150px;
+}
+.contactPic {
+	width:50px;
+	height:50px;
+	padding:0px 10px;
+}
+nav{
+	position:absolute;
+	top:30px;
+	right:100px;
+}
+nav ul li {
+	border-right:1px solid #eee;
+	padding:10px;
+}
+nav ul li:last-child {
+	border-right:none;
+}
+a {
+	color:grey;
+}
+form {
+	color:grey;
+}
+.name{
+	width: 100%;
+	height:25px;
+}
+.name:focus{
+	background:#555;
+	color:#eee;
+}
+#message:focus{
+	background:#555;
+	color:#eee;
+}
+textarea {
+	width:100%;
+}
+#submitbutton{
+	background:#4aaaa5;
+	color:white;
+	border:none;
+	padding:15px 40px;
+	font-size: 18px
+}
+h4 {
+	padding-bottom: 1px;
+	margin:10px 0px;
+}
+#hangman , #rpg , #trivia  , #rutgers , #rps {
+	background-image: url(https://placehold.it/200x200);
+	height:200px;
+	width: 200px;
+	margin:20px 60px;
+	float:left;
+}
+.pp {
+	background:#4aaaa5;
+	position:relative;
+	bottom:-100px;
+	padding:20px 25px;
+	text-align:center;
+	color:white;
+}
+.redirect {
+	background:transparent;
+	padding:0px 200px 183px 200px;
+	position: relative;
+	z-index: 1;
+}
+#portfolio{
+	border-bottom: 2px solid #ccc;
+}
+nav:hover{
+	font-weight: 1.5em;
+}
