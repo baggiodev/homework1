@@ -129,7 +129,7 @@ h4 {
 	margin:10px 0px;
 }
 #hangman , #rpg , #trivia  , #rutgers , #rps {
-	background-image: url(https://placehold.it/200x200);
+	background-image: url(images/placeholder.png);
 	height:200px;
 	width: 200px;
 	margin:20px 60px;
